@@ -1,0 +1,83 @@
+site_name: Sjd_Wiki
+site_url: https://sjd.wiki
+repo_url: https://github.com/grey0520/sjd_wiki
+theme:
+  name: material
+  features:
+    - navigation.prune
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: teal
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  language: zh
+  favicon: images/favicon.png
+  icon:
+    logo: material/wikipedia
+
+extra:
+  consent:
+    title: 请求 Cookie 授权
+    description: >- 
+      我们在意您的隐私权。
+      我们用cookie存放您的访问情况和偏好，
+      用来测量我们文档的有效性与用户的搜索喜好。
+      如果你同意授权，我们的文档将会变得更好！
+    actions:
+      - accept
+      - reject
+  analytics:
+    provider: google
+    property: G-LS2Y43M6TD
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:grey0520@foxmail.com
+copyright: >
+  Copyright &copy; 2022 - 2023 Group Sjd_Wiki –
+  <a href="#__consent">Change cookie settings</a>
+
+plugins:
+  - social:
+      cards_color:
+        fill: "#0FF1CE" 
+        text: "#FFFFFF"
+  - tags
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  - git-authors

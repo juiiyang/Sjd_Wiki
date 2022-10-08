@@ -1,5 +1,5 @@
 site_name: Sjd_Wiki
-site_url: https://sjd.wiki
+site_url: https://grey0520.github.io
 repo_url: https://github.com/grey0520/sjd_wiki
 theme:
   name: material
@@ -77,7 +77,7 @@ plugins:
       cards_color:
         fill: "#0FF1CE" 
         text: "#FFFFFF"
-  - tags
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  - git-authors
+  # - tags
+  # # - git-revision-date-localized:
+  # #     enable_creation_date: true
+  # - git-authors

@@ -73,10 +73,10 @@ copyright: >
   <a href="#__consent">Change cookie settings</a>
 
 plugins:
-  - social:
-      cards_color:
-        fill: "#0FF1CE" 
-        text: "#FFFFFF"
+  # - social:
+  #     cards_color:
+  #       fill: "#0FF1CE" 
+  #       text: "#FFFFFF"
   # - tags
   # # - git-revision-date-localized:
   # #     enable_creation_date: true

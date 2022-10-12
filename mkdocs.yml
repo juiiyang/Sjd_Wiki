@@ -6,6 +6,7 @@ theme:
   features:
     - navigation.prune
     - navigation.instant
+    - navigation.tabs
     - navigation.tracking
     - navigation.top
   palette:
@@ -81,3 +82,13 @@ plugins:
   # # - git-revision-date-localized:
   # #     enable_creation_date: true
   # - git-authors
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true 

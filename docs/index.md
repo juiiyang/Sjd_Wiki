@@ -10,7 +10,7 @@ Hi there~ :slight_smile:
 
 用于展示校园内的信息
 
-
+**支持：[here](/support/donate/)**
 
 ## 仓库目录结构
 
@@ -69,3 +69,5 @@ Hi there~ :slight_smile:
 如果你是开发者，或未来的开发者，建议你也学会
 
 + [Git知识](https://www.liaoxuefeng.com/wiki/896043488029600)
+
+

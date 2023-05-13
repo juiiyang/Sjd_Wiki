@@ -39,6 +39,23 @@ theme:
   icon:
     logo: material/wikipedia
 
+nav:
+  - 主页: index.md
+  - 公共: 
+    - 概览: public/index.md
+    - 正版软件: public/正版软件.md
+    - 邮箱配置: public/邮箱配置.md
+  - 专业:
+    - 概览: major/index.md
+    - CS#5: major/ComputerScience5.md
+  - 美食:
+    - 概览: food/index.md
+    - 美食店: food/restaurant.md
+    - 外卖平台: food/platform.md
+  - 支持:
+    - 捐赠: support/donate.md
+    - 赞助公示: support/sponsor.md
+    
 extra:
   consent:
     title: 请求 Cookie 授权

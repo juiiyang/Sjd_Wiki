@@ -40,7 +40,10 @@ theme:
     logo: material/wikipedia
 
 nav:
-  - 主页: index.md
+  - 主页: 
+    - 欢迎: index.md
+    - FAQ: faq.md
+    - 参与: join.md
   - 公共: 
     - 概览: public/index.md
     - 正版软件: public/正版软件.md
